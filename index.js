@@ -30,7 +30,7 @@ $(document).ready(function(){
         cartPagePortal()
     }    
 
-    $('#profile-pic')[0].onclick=function(){
+    $('profile-pic')[0].onclick=function(){
       // alert('clicked profile')
         $("#profile-pic").css({
           "transform": "translate(-50%,-50%) scale(1)",
