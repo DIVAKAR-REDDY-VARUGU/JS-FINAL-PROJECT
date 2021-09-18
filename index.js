@@ -30,32 +30,32 @@ $(document).ready(function(){
         cartPagePortal()
     }    
 
-    $('profile-pic')[0].onclick=function(){
-      // alert('clicked profile')
-        $("#profile-pic").css({
-          "transform": "translate(-50%,-50%) scale(1)",
-          "position": "fixed",
-          "width": "25vw",
-          "height": "50vh",
-          "border-radius": "15px"
-        });
-        $('#profile-back-screen').css({
-          "display":"block"
-        })
-    }    
-    $('#profile-back-screen')[0].onclick=function(){
-      // alert('clicked profile')
-        $("#profile-pic").css({
-          "transform": "translate(0%,0%) scale(1)",
-          "position": "relative",
-          "border-radius": "50%",
-          "width": "50px",
-          "height": "50px",
-        });
-        $('#profile-back-screen').css({
-          "display":"none"
-        })
-    }    
+//     $('#profile-pic')[0].onclick=function(){
+//       // alert('clicked profile')
+//         $("#profile-pic").css({
+//           "transform": "translate(-50%,-50%) scale(1)",
+//           "position": "fixed",
+//           "width": "25vw",
+//           "height": "50vh",
+//           "border-radius": "15px"
+//         });
+//         $('#profile-back-screen').css({
+//           "display":"block"
+//         })
+//     }    
+//     $('#profile-back-screen')[0].onclick=function(){
+//       // alert('clicked profile')
+//         $("#profile-pic").css({
+//           "transform": "translate(0%,0%) scale(1)",
+//           "position": "relative",
+//           "border-radius": "50%",
+//           "width": "50px",
+//           "height": "50px",
+//         });
+//         $('#profile-back-screen').css({
+//           "display":"none"
+//         })
+//     }    
 
 
 
